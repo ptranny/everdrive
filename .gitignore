@@ -1,3 +1,11 @@
+# SST
+.sst
+.build
+sst-env.d.ts
+
+# local env files
+.env*.local
+
 # Logs
 logs
 *.log
@@ -7,10 +15,12 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
+
+# Build artifacts
 dist
 dist-ssr
-*.local
 
 # Editor directories and files
 .vscode/*

@@ -1,0 +1,9 @@
+{
+  "name": "@everdrive/functions",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {},
+  "devDependencies": {
+    "sst": "^2.25.0"
+  }
+}

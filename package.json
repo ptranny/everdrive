@@ -1,25 +1,24 @@
 {
   "name": "everdrive",
+  "version": "1.0.0",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "dev": "sst dev",
+    "build": "sst build",
+    "deploy": "sst deploy",
+    "remove": "sst remove",
+    "console": "sst console"
   },
   "devDependencies": {
-    "@types/react": "^18.2.15",
-    "@types/react-dom": "^18.2.7",
-    "@vitejs/plugin-react": "^4.0.3",
-    "autoprefixer": "^10.4.15",
     "eslint": "^8.47.0",
     "eslint-plugin-react": "^7.33.2",
-    "tailwindcss": "^3.3.3",
-    "vite": "^4.4.5"
-  }
+    "sst": "^2.25.0",
+    "aws-cdk-lib": "2.95.1",
+    "constructs": "10.2.69"
+  },
+  "workspaces": [
+    "packages/*",
+    "client"
+  ]
 }
